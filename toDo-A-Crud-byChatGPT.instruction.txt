@@ -1,0 +1,50 @@
+--Instruction Set For Simple Crud Application
+-------------------------------------------------------------------------------------------
+Todo:: make Controller Product which will do crud with products table
+Table ::
+products{
+	id: auto increament, primarykey, unsigned, bigint
+	title: varchar 200
+	description: text
+	slug: varchar 255
+	status: tinyint [0  disable,  1  active]
+	created_at
+	updated_at
+	deleted_at
+}
+write Commands for make Seeder
+Create Migration 
+write Commands for execute new Migration 
+
+write Commands for make Seeder
+Create Seeder :: ProductSeeder (will generate 10 records)
+write Commands for execute new seeder ProductSeeder 
+
+
+write Commands for make controller ProductController [--resource]
+Create Controller :: ProductController [path app/Http/Controllers/ProductController] 
+
+
+write Commands for make view layouts.default
+write Commands for make view product.index
+write Commands for make view product.create
+write Commands for make view product.edit
+write Commands for make view product.show
+ 
+
+
+write Commands for make model Product
+Create Model :: Product [path app/Models/Product]
+
+
+Help to generate this for Laravel 10
+
+Help to add code in respective files 
+model will have all conomn's information of products table
+controller's index will link with all other actions 
+add layout into [resource/views/layouts/default.blade.php] 
+help 
+
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------

@@ -1,0 +1,28 @@
+
+                  GIT - INSTRUCTION
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+git clone <repo>  // cloning from repo 
+cd <repo>
+
+
+
+cd <anyfolder>
+git remote add origin <repo> // setting existing folder with repo
+
+
+
+git branch -M master // set master as main branch
+
+
+git checkout -b <branch> //create new branch
+
+git checkout <branch> //switch to branch
+
+
+
+git pull 
+git pull origin <branch> // 
+
+git push 
+git push origin <branch> 
